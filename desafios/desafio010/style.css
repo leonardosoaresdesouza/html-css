@@ -1,0 +1,221 @@
+@charset "UTF-8";
+ @font-face {
+        font-family: 'idroid.otf' ;
+        src: url(arquivos/fontes/idroid.otf);
+    }
+body {
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 25px 0px;
+    background-color: #E8E7C2;
+    text-align: center;
+   
+}
+
+/* Inicio */
+
+header > nav {
+    text-align: left;
+    padding-top: 37px;
+    padding-left: 7px;
+    padding-bottom: 6px;
+    word-spacing: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #192714, #0d592dc2, #3BD57F);
+    height: 222px;
+    color: white;
+    padding-bottom: 0px;
+}
+header > h1 {
+    margin: 0px;
+    padding: 60px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.712);
+    font-size: 35px;
+}
+
+header > p {
+    font-weight: 100;
+    color: rgb(214, 214, 214);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    padding-top: 25px;    
+}
+
+/* Links */
+a#espaço {
+    word-spacing: normal;
+}
+
+nav > a {
+    color: #7bc09b;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.753);
+    
+}
+
+nav > a:visited {
+    color: #5f9277;
+}
+
+nav > a:hover {
+    background-color: #3bd57e91;
+    padding: 4px 5px 4px 4px;
+    border-radius: 4px;
+    color: #00722c;
+}
+
+/* Parte de baixo do menu*/
+
+div#corpo{
+    background-color: white;
+    color: black;
+    margin: 0px 100px 25px 100px;
+    box-shadow: 2px 3px 9px 1px rgba(0, 0, 0, 0.418);
+    
+}
+
+h2{
+    text-align: left;
+    margin: 0px 0px 0px 15px;
+    padding: 20px 0px 0px 0px ;
+    font-family: 'idroid.otf' ;
+    color: #063D1E;
+    font-size: 28px;
+}
+
+div#corpo > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 15px 0px 15px;
+    font-size: normal ;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+}
+
+div#corpo > p > a {
+    background-color: #83E1AD;
+    padding: 2px 5px 2px 5px;
+    color: #063D1E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.negrito{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder ;
+    color: #1A5C37;
+}
+
+h3{
+    font-family: 'idroid.otf';
+    font-size: 20px;
+    text-align: left;
+    background-color: #A7EAC5;
+    margin: 0px 0px 0px 15px;
+    padding-left: 5px;
+    color: #1A5C37;
+}
+picture#imagens {
+    text-align: center;
+    width: auto;
+}
+div.video{
+    width: auto;
+    padding: 20px;
+    background-color: #063D1E;
+    height: 500px;
+    
+}
+div#fim {
+    padding-bottom: 25px;
+    border-radius: 20px;
+}
+
+div#fim > p {
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#fim > h3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #063D1E;
+    margin: 20px;
+    padding: 10px 10px;
+    color: white;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px
+}
+
+div#fim > h3 {
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.63);
+}
+
+div#caixa > ul {
+    text-align: left;
+}
+div#caixa {
+    background-color: #83E1AD;
+    margin: 0px 20px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.63);
+}
+div#caixa > p {
+    margin: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    padding: 0px 15px 0px 15px;
+    text-indent: 30px;
+    padding-top: 20px;
+   
+}
+
+div#caixa > ul {
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+}
+
+div#caixa li::before {
+    content: "✔";
+    color: black;
+    padding-right: 5px;
+}
+
+.lista-2 {
+    text-align: left;
+    padding-left: 200px;
+}
+
+div#caixa > p > a{
+    color: #063D1E;
+    font-weight: bolder;
+}
+
+
+
+footer {
+    width: auto;
+    height: 25px;
+    background-color: #063D1E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+footer > p {
+    padding-top: 5px;
+}
+div#corpo {
+    border-radius: 10px;
+}
