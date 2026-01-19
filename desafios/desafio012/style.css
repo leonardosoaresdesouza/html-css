@@ -64,7 +64,7 @@ div#fundo1 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.226);
 }
 
 div#fundo1 > p {
@@ -83,6 +83,7 @@ div#fundo2 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.226);
 }
 
 div#fundo2 > p {
