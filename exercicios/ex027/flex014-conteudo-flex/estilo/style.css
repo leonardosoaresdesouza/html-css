@@ -13,7 +13,78 @@ body {
     height: 100vh;
 }
 
-p, h1 {
-    padding: 15px 50px 15px 50px;
-    text-align: justify;
+main {
+    background-color: lightgray;
+}
+ /*Container*/
+#pt1 {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    align-items: center;
+    
+    
+}
+
+/*Itens*/
+
+#texto1 {
+    text-align: center;
+    flex: 1 1 50vw;
+    align-self: auto;
+}
+
+div#imagem {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 50vw;
+    align-self: auto;
+    
+}
+
+div#imagem img {
+    flex-basis: 596px;
+    scale: 0.8;
+}
+
+/*Container 2*/
+
+#pt2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/*Itens*/
+
+#texto2 {
+    flex: 1 1 50vw;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 50vw;
+    
+    scale: 0.9;
+}
+
+
+
+
+
+
+
+
+
+p {
+    
+}
+
+div#imagem {
+    
+}
+#video {
+    
 }
