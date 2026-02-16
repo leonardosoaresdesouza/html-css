@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo:rgb(34, 34, 34);
+    --card:rgb(43, 43, 43);
+    --texto-normal:white;
+    --texto-diferente: dodgerblue;
+    --texto-simples:lightgray;
+    --botao:rgb(54, 54, 54);
+}
+
+body {
+    background-color:var(--fundo);
+    color: var(--texto-normal);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: var(--card);
+    display: grid;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto 1fr;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60vw;
+    max-width: 550px;
+    height: auto;
+    border-radius: 15px;
+    padding: 0px 5px;
+    padding-bottom: 7px;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.123);
+}
+
+header {
+    width: 100%;
+    grid-column:1 / -1;
+    grid-row: 1 / 2;
+}
+
+header div.foto {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header div.foto img {
+    display: block;
+    margin: auto;
+    width: 25vw;
+    min-width: 50px;
+    max-width: 100px;;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+header h1 {
+    font-size: 1.5em;
+    padding: 20px 0px 10px 0px;
+}
+
+header p.localizacao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing:0.5px;
+    color: var(--texto-diferente);
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+
+p.descricao {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--texto-simples);
+    font-weight: 100;
+}
+
+nav {
+    display: block;
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+}
+
+nav div a {
+    background-color: var(--botao);
+    color: var(--texto-normal);
+    display: block;
+    width: 90%;
+    height: 6vh;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+nav div a:hover {
+    background-color: var(--texto-diferente);
+}
