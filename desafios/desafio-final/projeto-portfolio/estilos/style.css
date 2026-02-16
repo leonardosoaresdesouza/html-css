@@ -10,3 +10,7 @@
   --fundo-card
 */
 
+body {
+  background-color: lightgray;
+  color: darkblue;
+}
